@@ -71,7 +71,7 @@ if __name__ == '__main__':
     slider_sadness = create_slider(root, var_sadness, "Sadness").pack(side=tk.LEFT)
     slider_anxiety = create_slider(root, var_anxiety, "Anxiety").pack(side=tk.LEFT)
     slider_gratitude = create_slider(root, var_gratitude, "Gratitude").pack(side=tk.LEFT)
-    slider_gratitude = create_slider(root, var_tiredness, "Tiredness").pack(side=tk.LEFT)
+    slider_tiredness = create_slider(root, var_tiredness, "Tiredness").pack(side=tk.LEFT)
 
     button_period = tk.Radiobutton(root, text="On Period", variable=var_period, value=1).pack(side=tk.LEFT)
 
